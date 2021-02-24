@@ -1,0 +1,99 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: hsl(257, 40%, 49%);
+	background-image: url('./images/bg-mobile.svg');
+}
+header{
+	height: 180px;
+	padding-top: 30px;
+	padding-left: 20px;
+
+}
+header img{
+	width: 40%;
+	margin-bottom: 5%;
+}
+div img{
+	width: 85vw;
+	margin: 0 5% 5% 5%;
+}
+div h2{
+	text-align: center;
+	font-family: 'Poppins' , sans-serif;
+	color:white;
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+div p {
+	color: white;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.5rem;
+	padding: 10px;
+	line-height: 2.5rem;
+}
+div button{
+	width: 55%;
+	height: 50px;
+	margin: 0 22% 10% 22%;
+	font-family: 'Poppins' , sans-serif;
+	border-radius: 30px;
+	border:none;
+	font-size:1.2rem;
+	color:hsl(257, 40%, 49%); 
+	font-weight: 400;
+}
+@media only screen and (min-width: 600px){
+	body{
+background-image: url(./images/bg-desktop.svg);
+
+}
+	}
+header img{
+	width: 15%;
+	margin-bottom: 2%;
+	margin-left: 3.1%;
+}
+header{
+	height: 80px;
+	padding-top: 30px;
+	padding-left: 20px;
+
+}
+img{
+	width: 45vw;
+	margin: 0 5% 5% 5%;
+
+}
+.aside {
+	display: block;
+	width: 32vw;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+}
+div h2{
+	text-align: left;
+	font-size: 2rem;
+
+}
+div p{
+	text-align: left;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+div button{
+    margin: 0 22% 10% 2%;
+    width: 40%;
+    box-shadow: 0 0 3px 2px #000000;
+    font-size:1rem;
+}}
